@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yateen Electricals & Electronics Pvt. Ltd.</title>
+  <style>
+    :root{
+      --blue:#004080; --accent:#0066cc; --muted:#6b7280; --card:#ffffff;
+      --bg:#f4f7fa;
+    }
+    body{font-family: "Segoe UI", Tahoma, Arial, sans-serif; margin:0; color:#173646; background:var(--bg);}
+    header{background:var(--blue); color:white; padding:26px 18px; text-align:center}
+    header h1{margin:0;font-size:1.8rem}
+    header p{margin:6px 0 0; opacity:0.95}
+    nav{background:var(--accent); padding:10px; text-align:center}
+    nav a{color:white; margin:0 12px; text-decoration:none; font-weight:600}
+    .container{max-width:1200px;margin:32px auto;padding:0 18px}
+    h2{color:var(--blue); margin-bottom:14px; text-align:center}
+    .lead{max-width:900px;margin:0 auto 18px; text-align:center; color:var(--muted)}
+    /* layout */
+    .grid{display:grid; gap:20px}
+    .two-col{grid-template-columns:1fr 380px}
+    @media(max-width:880px){ .two-col{grid-template-columns:1fr} }
+    /* card */
+    .card{background:var(--card); border-radius:10px; padding:18px; box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    /* catalog */
+    #searchBar{width:100%; padding:10px 12px; border-radius:8px; border:1px solid #d1d5db; font-size:1rem}
+    .catalog{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:16px}
+    .product{padding:12px; border-radius:8px; background:white; text-align:center; box-shadow:0 6px 12px rgba(2,6,23,0.04)}
+    .product img{width:100%; height:140px; object-fit:cover; border-radius:6px}
+    .product h3{margin:10px 0 6px; font-size:1.05rem}
+    .product p{font-size:0.9rem; color:var(--muted)}
+    .cta-row{display:flex; gap:12px; justify-content:center; margin-top:12px; flex-wrap:wrap}
+    .btn{background:var(--blue); color:white; border:none; padding:10px 14px; border-radius:8px; cursor:pointer; font-weight:700}
+    .btn.ghost{background:transparent; color:var(--blue); border:2px solid #dbeafe}
+    /* carousel */
+    .carousel{position:relative; border-radius:10px; overflow:hidden; max-width:900px; margin:0 auto}
+    .carousel img{width:100%; display:none}
+    .carousel img.active{display:block}
+    /* clients */
+    .clients{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:14px; align-items:center}
+    .clients img{display:block; margin:auto; max-height:70px; object-fit:contain; filter:grayscale(60%)}
+    /* testimonials */
+    .testi{background:#fff; padding:14px; border-radius:8px; border-left:6px solid var(--blue)}
+    /* contact */
+    .contact a{color:var(--accent); text-decoration:none; font-weight:600}
+    .resources{font-size:0.9rem; color:var(--muted); margin-top:12px}
+    footer{background:var(--blue); color:white; padding:18px; text-align:center; margin-top:28px}
+    /* whatsapp fixed */
+    .whatsapp{position:fixed; bottom:18px; right:18px; width:60px; height:60px; border-radius:50%; background:#25d366; display:flex; align-items:center; justify-content:center; color:white; font-size:28px; box-shadow:0 8px 20px rgba(0,0,0,0.15); text-decoration:none}
+    .badge{display:inline-block; background:#eef2ff; color:var(--blue); padding:6px 10px; border-radius:999px; font-weight:700}
+    /* visitor */
+    .visitor{font-size:0.95rem; color:var(--muted); margin-top:10px; text-align:center}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Yateen Electricals & Electronics Pvt. Ltd.</h1>
+    <p>Control Panels • LT / MV Panels • Motor Control Centers — Cherlapally, Hyderabad</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#catalog">Catalog</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#clients">Clients</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main class="container">
+
+    <!-- ABOUT -->
+    <section id="about" class="card">
+      <h2>About Yateen Electricals</h2>
+      <p class="lead">
+        Yateen Electrical & Electronics Pvt. Ltd. is an industrial electrical manufacturer and fabricator based in Cherlapally, Hyderabad.
+        Public company records and business listings show it as a manufacturer of LT/MV panel boards, electrical panels, motor control centers and related power distribution equipment (registered as a private company with CIN U31300TG2000PTC033777). 
+        (Please confirm details with the company before publishing publicly.)
+      </p>
+
+      <div class="grid two-col" style="align-items:center; margin-top:18px">
+        <div>
+          <div class="card" style="margin-bottom:12px">
+            <h3 style="margin:0 0 8px">Key Facts</h3>
+            <p style="margin:0.2rem 0"><strong>Founded:</strong> 2000 (public listings)</p>
+            <p style="margin:0.2rem 0"><strong>CIN / Reg No:</strong> U31300TG2000PTC033777</p>
+            <p style="margin:0.2rem 0"><strong>Primary location:</strong> Plot No. 134/1, IDA Phase-II, Cherlapally, Hyderabad, Telangana</p>
+            <p style="margin:0.2rem 0"><strong>Industry:</strong> Control panels, panel boards, motor control centers, distribution & power panels</p>
+          </div>
+
+          <div class="card">
+            <h3 style="margin:0 0 8px">Contact</h3>
+            <p style="margin:0.2rem 0"><strong>Email:</strong> <a href="mailto:info@yateenelectricals.com">info@yateenelectricals.com</a> (public listing — verify)</p>
+            <p style="margin:0.2rem 0"><strong>Phone:</strong> Available via business directory listings</p>
+            <p style="margin:0.2rem 0"><strong>Address:</strong> <a class="contact-link" href="https://maps.app.goo.gl/s92usk29MfY95Px28" target="_blank">Plot No. 134/1, IDA Phase-II, Cherlapally, Hyderabad</a></p>
+            <div style="margin-top:10px" class="visitor">👥 Visitors: <span id="visitorCount">0</span></div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <aside>
+          <div class="card" style="text-align:center">
+            <h3 style="margin-bottom:8px">Preview Brochure</h3>
+            <p style="color:var(--muted); margin-bottom:12px">Download a PDF brochure (placeholder). Replace with official brochure when ready.</p>
+            <a href="brochure.pdf" download class="btn">Download Brochure</a>
+            <div style="margin-top:12px">
+              <button class="btn ghost" onclick="scrollToSection('catalog')">View Catalog</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CATALOG -->
+    <section id="catalog" style="margin-top:28px">
+      <h2>Product Catalog</h2>
+      <p class="lead">Search the catalog below. (Data compiled from public manufacturer listings.)</p>
+
+      <div class="card">
+        <input id="searchBar" placeholder="Search products (e.g., VCB, MCC, Meter Box, Distribution Board)">
+
+        <div class="catalog" id="catalogGrid" style="margin-top:12px">
+          <!-- products will be injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY / CAROUSEL -->
+    <section id="gallery" style="margin-top:28px">
+      <h2>Factory Gallery</h2>
+      <div class="carousel card" id="carousel">
+        <img src="yateen.png" class="active" alt="Factory 1">
+      </div>
+    </section>
+
+    <!-- CLIENTS -->
+    <section id="clients" style="margin-top:28px">
+      <h2>Industries & Clients</h2>
+      <p class="lead">Yateen supplies panels and control systems to industries across manufacturing, construction, utilities and solar power integrators.</p>
+      <div class="card clients" style="padding:20px">
+        <img src="https://via.placeholder.com/200x80?text=Client+Logo+1" alt="">
+        <img src="https://via.placeholder.com/200x80?text=Client+Logo+2" alt="">
+        <img src="https://via.placeholder.com/200x80?text=Client+Logo+3" alt="">
+        <img src="https://via.placeholder.com/200x80?text=Client+Logo+4" alt="">
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" style="margin-top:28px">
+      <h2>Testimonials</h2>
+      <div class="card testimonials">
+        <div class="testi">"Reliable control panels and on-time delivery." — Client A</div>
+        <div class="testi">"Professional team and clear documentation." — Client B</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" style="margin-top:28px">
+      <h2>Contact & Inquiries</h2>
+      <div class="grid two-col" style="align-items:start">
+        <div class="card">
+          <h3>Request a Quote</h3>
+          <p class="lead">Fill in the short form — requests are sent to the company's email (or WhatsApp if provided).</p>
+          <form id="inquiryForm" onsubmit="handleForm(event)">
+            <div style="display:grid; gap:10px">
+              <input name="name" placeholder="Your name" required style="padding:10px;border-radius:8px;border:1px solid #e5e7eb" />
+              <input name="company" placeholder="Company (optional)" style="padding:10px;border-radius:8px;border:1px solid #e5e7eb" />
+              <input name="email" type="email" placeholder="Email" required style="padding:10px;border-radius:8px;border:1px solid #e5e7eb" />
+              <textarea name="msg" placeholder="Tell us your requirement" rows="4" style="padding:10px;border-radius:8px;border:1px solid #e5e7eb"></textarea>
+              <div style="display:flex; gap:10px">
+                <button class="btn" type="submit">Send Inquiry</button>
+                <a class="btn ghost" href="mailto:info@yateenelectricals.com">Email</a>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <aside class="card" style="text-align:center">
+          <h3>Quick Contact</h3>
+          <p><strong>Email:</strong> <a href="mailto:info@yateenelectricals.com">info@yateenelectricals.com</a></p>
+          <p><strong>Address:</strong> <a href="https://maps.app.goo.gl/s92usk29MfY95Px28" target="_blank">Plot No. 134/1, IDA Phase-II, Cherlapally, Hyderabad</a></p>
+          <p style="margin-top:8px"><span class="badge">25+ years</span> in business (public listing)</p>
+
+          <div style="margin-top:16px">
+            <a class="btn" href="brochure.pdf" download>Download Brochure</a>
+          </div>
+
+          <div style="margin-top:12px" class="resources">
+            <strong>Resources & references</strong>
+            <ul style="text-align:left; margin-left:16px; margin-top:8px">
+              <li><a href="https://www.tradeindia.com/yateen-electrical-electronics-pvt-ltd-6411825/" target="_blank">TradeIndia - company & products</a></li>
+              <li><a href="https://www.justdial.com/jdmart/Rangareddy/Yateen-Electrical-Electronics-Pvt-Ltd-Near-Vimta-Labs-Cherlapalli/040PXX40-XX40-101113113406-C9I2_BZDET/catalogue/products" target="_blank">Justdial - product catalogue & listing</a></li>
+              <li><a href="https://www.zaubacorp.com/YATEEN-ELECTRICAL-AND-ELECTRONICS-PRIVATE-LIMITED-U31300TG2000PTC033777" target="_blank">Zaubacorp - public company record (CIN)</a></li>
+              <li><a href="https://www.scribd.com/document/697038064/YATEEN-ELECTRICAL-INTRODUCTION-2-1-230707-141144" target="_blank">Company intro (brochure PDF copy on Scribd)</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- WhatsApp CTA -->
+  <a class="whatsapp" href="https://wa.me/919876543210?text=Hello%20Yateen%2C%20I%20want%20a%20quote" target="_blank" title="Chat on WhatsApp">💬</a>
+
+  <footer>
+    <div>&copy; 2025 Yateen Electricals & Electronics Pvt. Ltd.</div>
+    <div style="margin-top:8px; font-size:0.9rem; opacity:0.9">Built by XFoundra.Tech — student-led digital solutions</div>
+  </footer>
+
+  <script>
+    /***** Product data compiled from public listings (TradeIndia, Justdial, ExportersIndia) *****/
+    const products = [
+      { title: "LT & MV Panel Boards", img:"ltmvpanelboards.jpg", desc:"Low- and medium-voltage panel boards for industrial distribution and control." },
+      { title: "VCB Indoor Panels", img:"vcbindoorpanels.jpeg", desc:"Vacuum Circuit Breaker (VCB) indoor panels — various amperages and configurations." },
+      { title: "Motor Control Centers (MCC)", img:"motorcontrolcentres.jpeg", desc:"Motor Control Centers for centralized motor control and protection." },
+      { title: "Power Control Panels", img:"powercontrolpanels.png", desc:"Power and distribution control panels for factories and plants." },
+      { title: "Distribution Boards", img:"distributionboards.jpeg", desc:"Compact and durable distribution boards for power management." },
+      { title: "Meter Boxes", img:"meterboxes.jpg", desc:"Meter enclosures and boxes for utility and industrial metering." },
+      { title: "PLC & Automation Panels", img:"plcandautomationpanels.jpg", desc:"PLC-based control panels and automation solutions." },
+      { title: "Solar Panel / Solar Integration", img:"solarpanels.jpeg", desc:"Solar panel integration and related power electronics." },
+      { title: "Custom Panel Solutions", img:"custompanelsolutions.jpeg", desc:"Tailor-made panels, enclosures and switchgear to client specifications." },
+      { title: "Bus Ducts & Accessories", img:"busducts.jpeg", desc:"Bus duct systems and power distribution accessories." }
+    ];
+
+    // render catalog
+    const grid = document.getElementById('catalogGrid');
+    function renderProducts(list){
+      grid.innerHTML = '';
+      list.forEach(p=>{
+        const d = document.createElement('div');
+        d.className = 'product';
+        d.innerHTML = `<img src="${p.img}" alt="${p.title}"><h3>${p.title}</h3><p>${p.desc}</p>`;
+        grid.appendChild(d);
+      });
+    }
+    renderProducts(products);
+
+    // search
+    document.getElementById('searchBar').addEventListener('input', (e)=>{
+      const q = e.target.value.toLowerCase().trim();
+      if(!q){ renderProducts(products); return; }
+      renderProducts(products.filter(p=> (p.title + ' ' + p.desc).toLowerCase().includes(q)));
+    });
+
+    // basic carousel auto-rotate
+    const imgs = document.querySelectorAll('.carousel img');
+    let idx = 0;
+    setInterval(()=> {
+      imgs[idx].classList.remove('active');
+      idx = (idx + 1) % imgs.length;
+      imgs[idx].classList.add('active');
+    }, 3000);
+
+    // visitor counter (local only, quick demo)
+    let count = parseInt(localStorage.getItem('yateen_visitors') || '0', 10);
+    count++; localStorage.setItem('yateen_visitors', count);
+    document.getElementById('visitorCount').innerText = count;
+
+    // handle form (demo: opens mailto)
+    function handleForm(ev){
+      ev.preventDefault();
+      const f = ev.target;
+      const name = encodeURIComponent(f.name.value || 'Anonymous');
+      const msg = encodeURIComponent(f.msg.value || 'Request via website');
+      const email = encodeURIComponent(f.email.value || '');
+      // open mail client with prefilled values (replace with backend/email hook later)
+      window.location.href = `mailto:info@yateenelectricals.com?subject=Quote%20Request%20from%20${name}&body=${msg}%0A%0AContact:%20${email}`;
+    }
+
+    function scrollToSection(id){
+      document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'});
+    }
+  </script>
+</body>
+</html>
